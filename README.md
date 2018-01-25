@@ -1,4 +1,5 @@
-# MoviesApp - [Live Demo](https://aaliyasayed.github.io/MoviesApp/MoviesApp/movies)
+# MoviesApp - [Live Demo](https://aaliyasayed.github.io/MoviesApp)
+`Click on Movie Library to run`
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
 
