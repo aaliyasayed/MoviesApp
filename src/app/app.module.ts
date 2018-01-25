@@ -4,7 +4,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
 import { MoviesComponent } from './movies/movies.component';
 import { MovieListComponent } from './movies/movie-list/movie-list.component';
 import { MovieDetailComponent } from './movies/movie-detail/movie-detail.component';
@@ -20,7 +19,6 @@ import { MovieService } from './movies/movie.service';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
     MoviesComponent,
     MovieListComponent,
     MovieDetailComponent,

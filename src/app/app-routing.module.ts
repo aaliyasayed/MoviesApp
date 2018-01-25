@@ -7,8 +7,8 @@ import { MovieDetailComponent } from './movies/movie-detail/movie-detail.compone
 import { MovieEditComponent } from './movies/movie-edit/movie-edit.component';
 
 const appRoutes: Routes = [
-  { path: '', redirectTo: '/movies', pathMatch: 'full' },
-  { path: 'movies', component: MoviesComponent, children: [
+  { path: '', redirectTo: '/', pathMatch: 'full' },
+  { path: '', component: MoviesComponent, children: [
     { path: '', component: MovieStartComponent },
     { path: 'new', component: MovieEditComponent },
     { path: ':id', component: MovieDetailComponent },
